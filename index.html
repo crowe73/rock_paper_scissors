@@ -6,29 +6,14 @@
     </head>
     <body>
         <script>
-            computerPlay();
-
-            // Randomly return "rock", "paper", or "scissors".
+            // Computer's choice that it chooses randomly.
             function computerPlay()
             {
-                result = Math.floor(Math.random() * 3);
-
-                if (result === 0)
-                {
-                    computerSelection = "Rock";
-                }
-                else if (result === 1)
-                {
-                    computerSelection = "Paper";
-                }
-                else if (result === 2)
-                {
-                    computerSelection = "Scissors";
-                }
-                return computerSelection;
+                const choices = ['rock', 'paper', 'scissors'];
+                const randomChoice = Math.floor(Math.random() * 3);
+                return choices[randomChoice];
             }
-
-            console.log("computerSelection = " + computerSelection);
+            console.log(computerPlay());
         </script>
     </body>
 </html>
