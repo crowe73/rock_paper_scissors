@@ -1,0 +1,21 @@
+.body-container
+{
+    background-color: black;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 940px;width: 1885px;
+    border: solid 5px yellow;
+}
+
+.title
+{
+    font-size: 96px;
+    font-weight: 700;
+}
+
+.text
+{
+    font-size: 48px;
+}
