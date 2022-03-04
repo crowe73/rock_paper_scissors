@@ -7,7 +7,22 @@ let computerScore = 0;
     //game();
 }
 
-result();
+//result();
+
+const buttons = document.querySelectorAll("button");
+buttons.forEach((button) =>
+{
+    button.addEventListener("click", function() 
+    {
+        // Process user click.
+        const playerSelection = this.id;
+        console.log(`Player chooses ${playerSelection}`);
+        const computerSelection = computerPlay();
+        console.log(`Computer chooses ${computerSelection}`);
+        console.log(playRound(playerSelection, computerSelection));
+        result();
+    });
+});
 
 // Computer's choice that it chooses randomly.
 function computerPlay()
@@ -73,10 +88,13 @@ function playRound(playerSelection, computerSelection)
 function game()
 {
     const playerSelection = prompt('Choose rock, paper, or scissors');
+    console.log(`Player chooses ${playerSelection}`);
     const computerSelection = computerPlay();
+    console.log(`Computer chooses ${computerSelection}`);
     console.log(playRound(playerSelection, computerSelection));
 }
 
+// Display the results.
 function result()
 {
     console.log(`Computer score: ${computerScore} Player score: ${playerScore}`);

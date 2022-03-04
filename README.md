@@ -13,3 +13,5 @@
 02/27/2022 20:00 - Moved javascript code to javascript.js file.
 
 02/27/2022 21:32 - Added style.css file.
+
+03/04/2022 00:05 - Added event listener to rock, paper, and scissors buttons.
