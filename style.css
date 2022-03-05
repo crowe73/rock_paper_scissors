@@ -43,7 +43,7 @@ h2
     align-items: center;
 }
 
-.computer-choice
+#computer-choice
 {
     font-size: 44px;
     font-weight: 700;
@@ -60,7 +60,7 @@ h2
     align-items: center;
 }
 
-.player-choice
+#player-choice
 {
     font-size: 44px;
     font-weight: 700;
