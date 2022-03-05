@@ -103,7 +103,7 @@ function result()
             computerScore === 5
                 ? "The computer wins!"
                 : "The player wins!";
-        alert(winner);
+        document.getElementById("results").textContent = winner;
         return true;
     }
     return false;

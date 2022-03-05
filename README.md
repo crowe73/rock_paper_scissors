@@ -17,3 +17,5 @@
 03/04/2022 00:05 - Added event listener to rock, paper, and scissors buttons.
 
 03/05/2022 00:33 - Updated HTML file. Added computer score, player score, computer choice, and player chioce.
+
+03/05/2022 01:00 - Added results to UI, and final code cleanup.
